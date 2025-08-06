@@ -28,8 +28,8 @@ reverse kimi-k2 to openai api
 
 ## 使用说明
 
-1. 保存为 `kimi_proxy.ts`
-2. 运行: `deno run --allow-net kimi_proxy.ts`
+1. 保存为 `main.ts
+2. 运行: `deno run --allow-net main.ts`
 3. 测试端点:
    - `GET /v1/models`
    - `POST /v1/chat/completions` 带有 JSON 请求体
